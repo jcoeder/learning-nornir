@@ -1,0 +1,29 @@
+---
+
+csr1:
+  hostname: 172.31.33.240
+  platform: 'ios'
+  groups:
+    - csr_routers
+    - site1
+
+csr2:
+  hostname: 172.31.33.241
+  platform: 'ios'
+  groups:
+    - csr_routers
+    - site2
+
+mx3:
+  hostname: 172.31.33.242
+  platform: 'junos'
+  groups:
+    - mx_routers
+    - site1
+
+mx4:
+  hostname: 172.31.33.243
+  platform: 'junos'
+  groups:
+    - mx_routers
+    - site2

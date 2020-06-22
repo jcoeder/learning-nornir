@@ -1,0 +1,20 @@
+---
+csr_routers:
+  contact: Justin
+
+mx_routers:
+  contact: Justin
+
+site1:
+  data:
+    ntp:
+      servers:
+        - 132.163.96.5
+        - 132.163.97.5
+
+site2:
+  data:
+    ntp:
+      servers:
+        - 128.138.141.177
+        - 129.6.15.32
