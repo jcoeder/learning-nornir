@@ -1,9 +1,25 @@
 ---
+ios:
+  platform: 'ios'
+  port: 22
+  
+junos:
+  platform: 'junos'
+  port: 830
+
 csr_routers:
-  contact: Justin
+  platform: 'ios'
+  data:
+    snmp_community: TESTING1
+    contacts:
+      - Justin
 
 mx_routers:
-  contact: Justin
+  platform: 'junos'
+  data:
+    snmp_community: TESTING2
+    contacts:
+      - Justin
 
 site1:
   data:

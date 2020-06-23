@@ -1,3 +1,4 @@
 nornir
+nornir_scrapli
 napalm
 ansible
