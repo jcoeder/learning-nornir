@@ -2,7 +2,7 @@
 ios:
   platform: 'ios'
   port: 22
-  
+
 junos:
   platform: 'junos'
   port: 830
@@ -23,6 +23,7 @@ mx_routers:
 
 site1:
   data:
+    site: site1
     ntp:
       servers:
         - 132.163.96.5
@@ -30,6 +31,7 @@ site1:
 
 site2:
   data:
+    site: site2
     ntp:
       servers:
         - 128.138.141.177
